@@ -27,14 +27,13 @@ export default class Projects extends Component {
 
   render() {
     return (
-      <div>
         <Element name="projects">
           <div className="project-page">
             <h1 className="project-page-header">Projects</h1>
             <div className="projects-container">
               {projectsData.map((data) => (
                 <div className="project-card" key={data.id}>
-                  <img className="project-img" src={data.img} width="100%" />
+                  {/* <img className="project-img" src={data.img} width="100%" /> */}
                   <div className="project-title">{data.title}</div>
                   <div className="desc">
                     <p>{data.description}</p>
@@ -53,7 +52,6 @@ export default class Projects extends Component {
             </div>
           </div>
         </Element>
-      </div>
     );
   }
 }

@@ -38,6 +38,26 @@ h4{
   margin-top: 5px;
 }
 
+.custom-shape-divider-top-1634922272 {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  overflow: hidden;
+  line-height: 0;
+}
+
+.custom-shape-divider-top-1634922272 svg {
+  position: relative;
+  display: block;
+  width: calc(100% + 1.3px);
+  height: 126px;
+}
+
+.custom-shape-divider-top-1634922272 .shape-fill {
+  fill: #FFFFFF;
+}
+
 .header{
   display: flex;
   align-items: center;
@@ -75,7 +95,8 @@ color:rgb(151, 56, 56);
   margin: 20px;
   box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2);
   transition: 0.3s;
-  width: 30%;
+  background-color:white;
+  width: 50vh
 }
 
 .project-card > .project-title{
@@ -105,7 +126,7 @@ color:rgb(151, 56, 56);
 
 .projects-container{
   display: flex;
-  flex-direction: row;
+  flex-direction: column;
 }
 
 .project-page{
@@ -133,10 +154,7 @@ color:rgb(151, 56, 56);
   padding: 0px 0px 5px 10px;
 }
 
-.project-card{
-  background-color:white;
-  width:400px;
-}
+
 
 @keyframes onHover{
   0%{

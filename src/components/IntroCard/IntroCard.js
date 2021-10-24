@@ -14,7 +14,7 @@ export default function IntroCard() {
       </Anime>
       <Anime opacity={[0, 1]} duration={[2000]} delay={[2000]}>
         <Link activeClass="active" to="projects" smooth={true} duration={500}>
-          <p className="enter">enter</p>
+          <p className="enter">check me out!</p>
         </Link>
       </Anime>
     </div>
