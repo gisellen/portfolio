@@ -1,13 +1,12 @@
 import React from "react";
 //components
-import { IntroCard } from "../components";
-import Projects from "./Projects";
+import { IntroCard, Sidebar } from "../components";
+import Projects from "./Projects/Projects";
 import Contact from "./Contact";
+
 //images & data
-// import Arrow from "../imgs/arrow-down.png";
-import pomodoroimg from "../imgs/pomodoroimg.PNG";
 import projectsData from "../data/Projects";
-import githubLogo from "../imgs/svg/github.svg";
+
 //misc
 import { Element, animateScroll as scroll } from "react-scroll";
 
@@ -35,6 +34,7 @@ export default class Main extends React.Component {
   render() {
     return (
       <>
+      <Sidebar />
         <div class="custom-shape-divider-top-1634922272">
           <svg
             data-name="Layer 1"

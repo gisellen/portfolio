@@ -1,0 +1,43 @@
+.project-card{
+    display: flex;
+    margin: 20px;
+    transition: 0.3s;
+    box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2);
+    background-color:white;
+    width: 50vh;
+    border-radius: 3%;
+  }
+
+  .project-img {
+    width: 30%;
+    height: 100%;
+    object-fit: cover;
+    object-position: 20% 50%;
+    border-top-left-radius: 2%;
+    border-bottom-left-radius: 2%;
+  }
+
+  .project-card > div > .project-title{
+    font-size: 30px;
+    text-align: center;
+    font-weight: bold;
+  }
+  .project-card:hover{
+    transform: scale(1.05);
+  }
+  
+  .desc{
+    position: relative;
+    height: 80px;
+    padding: 15px;
+  }
+  
+  .card-footer {
+    width: 20%;
+    bottom: 10px;
+  }
+
+  .github-logo{
+    padding: 0px 0px 5px 10px;
+  }
+  

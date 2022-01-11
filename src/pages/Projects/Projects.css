@@ -1,0 +1,51 @@
+.projects{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    min-height: 100vh;
+  }
+  
+  .project-page-header{
+    padding-top:100px;
+    margin-bottom: 0px;
+    letter-spacing: 2px;
+  }
+  
+  .projects-container{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    margin-top: 2%;
+  }
+  
+  .project-page{
+    display:flex;
+    align-items: center;
+    flex-direction: column;
+    min-height: 100vh;
+  }
+  
+  .project-page h1{
+    color:white;
+    font-family: 'Jost', sans-serif;
+    text-shadow: 0px 2px 3px #DB7F7F;
+    font-size: 60px;
+    padding-top: 0;
+  }
+  
+  
+  @keyframes onHover{
+    0%{
+      opacity: 0px;
+    }
+    100%{
+      opacity: 100%;
+    }
+  }
+
+  @media screen and (min-width: 1240px){
+      .projects-container{
+          padding-right: 10%;
+          padding-left: 10%;
+      }
+  }
