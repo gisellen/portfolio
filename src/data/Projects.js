@@ -1,5 +1,5 @@
 import pomodoroimg from '../imgs/pomodoroimg.PNG'
-import noteimg from '../imgs/noteimg.PNG'
+import olympimg from '../imgs/olymp.png'
 import giphyapiimg from '../imgs/giphyapiimg.PNG'
 import wepay from '../imgs/wepay.png'
 
@@ -14,11 +14,11 @@ const projectsData = [
     },
     {
         id: 1,
-        title: "Simple Notepad",
-        description: "A notepad application for users to jot their thoughts down.  This notepad can be used for venting, remembering things, or simply get things out of your mind.",
-        img: noteimg,
-        tech: "HTML, CSS, Javascript, JQuery",
-        link: "https://github.com/gisellen/simple-notepad",
+        title: "Olympic Games Management",
+        description: "A Tournament Management & Bracket Generator Program with an Olympic Games focus.",
+        img: olympimg,
+        tech: "Java, MySQL, Amazon RDS",
+        link: "https://github.com/iDopameme/Olympic-Games-Management",
     },
     {
         id: 2,

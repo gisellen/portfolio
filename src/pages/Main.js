@@ -34,7 +34,6 @@ export default class Main extends React.Component {
   render() {
     return (
       <>
-      <Sidebar />
         <div class="custom-shape-divider-top-1634922272">
           <svg
             data-name="Layer 1"
@@ -58,9 +57,14 @@ export default class Main extends React.Component {
             ></path>
           </svg>
         </div>
-        <IntroCard />
-        <Projects />
-        <Contact />
+        <div className="main-page">
+          <Sidebar />
+          <div className="pages">
+            <IntroCard />
+            <Projects />
+            <Contact />
+          </div>
+        </div>
       </>
     );
   }
