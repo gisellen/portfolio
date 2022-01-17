@@ -1,12 +1,12 @@
 .sidebar {
+  position: absolute;
   float: right;
   display: flex;
-  justify-content: center;
-  align-items: flex-end;
   flex-direction: column;
+  top: 50%;
+  left: 96%;
+  transform: translate(-50%, -50%);
   position: fixed;
-  width: 100%;
-  height: 100%;
 }
 
 button {
@@ -20,6 +20,8 @@ button {
   margin-right: 30px;
   border-radius: 100%;
   padding: 10px;
+  opacity: 0.7;
+  transition: 0.5s;
 }
 
 .home-group,
@@ -30,34 +32,33 @@ button {
 
 .home-sidebar,
 .projects-sidebar {
-  display: none;
+  display: inline;
   font-size: 20px;
   color: white;
   margin-right: 10px;
+  opacity: 0;
+  transition: 0.4s;
 }
 
 .home-button:hover + .home-sidebar {
   display: block;
-  animation-name: fade-in;
-  animation-duration: 0.4s;
+  opacity: 1;
 }
 
 .projects-button:hover + .projects-sidebar {
   display: block;
-  animation-name: fade-in;
-  animation-duration: 0.4s;
+  opacity: 1;
 }
 
 .home-button:hover,
 .projects-button:hover {
   cursor: pointer;
+  opacity: 1;
 }
 
-@keyframes fade-in {
-  from {
-    opacity: 0;
-  }
-  to {
-    opacity: 100%;
+/* tablet and phone screens will NOT show the sidebar */
+@media screen and (max-width: 1240px) {
+  .sidebar {
+    display: none;
   }
 }
