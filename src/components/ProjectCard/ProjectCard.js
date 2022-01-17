@@ -6,7 +6,7 @@ export default function ProjectCard(props) {
   return (
     <div className="project-card" key={props.id}>
       <img className="project-img" src={props.img} />
-      <div>
+      <div className="project-info">
         <div className="project-title">{props.title}</div>
         <p className="desc">{props.description} <br />
         <b>Technologies:</b> {props.tech}

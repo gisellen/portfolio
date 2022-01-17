@@ -7,7 +7,7 @@ const projectsData = [
     {
         id: 0,
         title: "Pomodoro Clock",
-        description: "A Pomodoro Clock application made with React.  The purpose of this application is to increase productivity time and get things done.",
+        description: "A Pomodoro Clock application made with React. A pomodoro clock is a method that increases productivity time and get things done. The purpose of this application was to learn how React works.  ",
         img: pomodoroimg,
         tech: "React, Node.js",
         link: "https://github.com/gisellen/pomodoro-react",
@@ -31,7 +31,7 @@ const projectsData = [
     {
         id: 3,
         title: "WePay",
-        description: "A React Application made for a school project.  The main task was to create an application that worked as a Human Resource application where users are able to review employee payrolls, benefits, and more.",
+        description: "A React Application made for Software Engineering CSC 430. It is a Human Resource application for businesses where users are able to review employee payrolls, benefits, and more.",
         img: wepay,
         tech: "React, Node.js, Axios, MySQL",
         link: "https://github.com/ilei0893/WePay",
