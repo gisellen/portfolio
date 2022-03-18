@@ -57,13 +57,3 @@ h4{
 .custom-shape-divider-top-1634922272 .shape-fill {
   fill: #FFFFFF;
 }
-
-.enter{
-  color: white;
-  font-weight: bold;
-  margin-top: 70px;
-  cursor: pointer;
-  padding: 5px 30px;
-  /* border: solid rgb(151, 56, 56) 2px; */
-  background-color: rgb(170, 70, 87)
-}

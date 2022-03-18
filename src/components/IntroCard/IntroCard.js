@@ -1,6 +1,6 @@
 import React from "react";
 import Anime from "react-anime";
-import Arrow from "../../imgs/arrow-down.png";
+import Arrow from "../../imgs/svg/arrow-down.svg";
 import { Link, animateScroll as scroll } from "react-scroll";
 import './IntroCard.css';
 
@@ -17,7 +17,7 @@ export default function IntroCard() {
       </Anime>
       <Anime opacity={[0, 1]} duration={[2000]} delay={[1500]}>
         <Link activeClass="active" to="projects" smooth={true} duration={500}>
-          <p className="enter">check me out!</p>
+          <img className="enter" src={Arrow} width='50px'/>
         </Link>
       </Anime>
     </div>

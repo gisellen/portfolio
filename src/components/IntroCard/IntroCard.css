@@ -20,3 +20,11 @@
     text-align: 'left';
     }
     
+    .enter{
+      filter: invert(96%) sepia(94%) saturate(2%) hue-rotate(189deg) brightness(105%) contrast(100%);
+      font-weight: bold;
+      margin-top: 70px;
+      cursor: pointer;
+      padding: 5px 30px;
+      /* border: solid rgb(151, 56, 56) 2px; */
+    }
