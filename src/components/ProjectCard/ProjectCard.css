@@ -5,7 +5,7 @@
   transition: 0.3s;
   box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
   background-color: white;
-  width: 50vh;
+  width: 40%;
   border-radius: 70px;
 }
 .project-info {
@@ -69,11 +69,21 @@ padding: 5px 10px;
 cursor: pointer;
 }
 
-@media only screen and (max-width: 500px){
+@media only screen and (max-width: 700px){
+  .desc {
+    display: none;
+  }
+  .project-card {
+    width: 100%;
+  }
+}
+
+@media only screen and (max-width: 800px){
   .desc {
     display: none;
   }
 }
+
 @media only screen and (max-height: 800px){
   .desc {
     display: none;
