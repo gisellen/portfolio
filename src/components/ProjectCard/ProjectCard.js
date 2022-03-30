@@ -9,7 +9,7 @@ export default function ProjectCard(props) {
         <p className="desc">{props.description}</p>
         <div className="technologies">{props.tech}</div>
         <div className="card-footer">
-          <a href={props.link}>
+          <a href={props.link} target="_blank" >
             <button className="source">source</button>
           </a>
         </div>

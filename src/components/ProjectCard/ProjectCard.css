@@ -57,30 +57,28 @@
 }
 .card-footer {
   margin-top: 15px;
-  width: 20%;
   bottom: 10px;
 }
 
 .source {
-padding: 5px 10px;
+  padding: 15px 20px;
+  border-radius: 10px;
+  font-weight: bold;
+  color: rgb(112, 93, 93);
+  background-color: rgb(226, 226, 226);
 }
 
 .source:hover {
 cursor: pointer;
 }
 
-@media only screen and (max-width: 700px){
+
+@media only screen and (max-width: 800px){
   .desc {
     display: none;
   }
   .project-card {
     width: 100%;
-  }
-}
-
-@media only screen and (max-width: 800px){
-  .desc {
-    display: none;
   }
 }
 
