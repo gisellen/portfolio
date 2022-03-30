@@ -1,7 +1,6 @@
 @import url('https://fonts.googleapis.com/css2?family=Open+Sans:wght@400;500&display=swap');
 
 .project-card {
-  display: flex;
   margin: 20px;
   transition: 0.3s;
   box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
@@ -68,4 +67,15 @@ padding: 5px 10px;
 
 .source:hover {
 cursor: pointer;
+}
+
+@media only screen and (max-width: 500px){
+  .desc {
+    display: none;
+  }
+}
+@media only screen and (max-height: 800px){
+  .desc {
+    display: none;
+  }
 }
