@@ -1,11 +1,13 @@
 import "../App.css";
 import Main from "./Main";
-//add back to top functions
+import { Footer } from '../components/'
+//TODO: add back to top functions
 
 function App() {
   return (
     <div>
       <Main />
+      <Footer />
     </div>
   );
 }
