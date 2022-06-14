@@ -1,11 +1,12 @@
 @import url('https://fonts.googleapis.com/css2?family=Open+Sans:wght@400;500&display=swap');
 
 .project-card {
-  margin: 20px;
+  margin: 10px;
   transition: 0.3s;
   box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
   background-color: white;
-  width: 40%;
+  width: 35%;
+  border-radius: 20px;
 }
 .project-info {
   padding: 20px 50px;
@@ -26,11 +27,28 @@
   border-bottom-left-radius: 2%;
 }
 
+.project-header{
+  width: 100%;
+  display: flex;
+  justify-content: space-between;
+  align-self: flex-start;
+}
+
+.header-icon{
+  filter: invert(15%) sepia(11%) saturate(7251%) hue-rotate(187deg) brightness(101%) contrast(99%);
+}
+
+.github-icon, .webasset-icon{
+  filter: invert(72%) sepia(18%) saturate(5987%) hue-rotate(299deg) brightness(111%) contrast(92%);
+}
+
 .project-title {
+  font-family: 'Work Sans', sans-serif;
   font-size: 25px;
-  text-align: center;
-  color: rgb(192, 101, 121);
-  font-weight: bold;
+  text-align: left;
+  color: #0A315D;
+  font-weight: 700;
+
 }
 
 .project-card:hover {
@@ -38,12 +56,13 @@
 }
 
 .desc {
-  font-family: 'Open Sans', sans-serif;
+  font-family: 'Work Sans', sans-serif;
   color: rgb(53, 47, 47);
   position: relative;
-  padding: 15px;
+  padding-top: 15px;
+  padding-bottom: 15px;
   margin: 0;
-  text-align: center;
+  text-align: left;
 }
 
 .technologies {
@@ -51,19 +70,16 @@
   color: rgb(133, 113, 113);
   font-weight: 600;
   background: rgb(255, 255, 255);
-  width: 100%;
   text-align: center;
 }
-.card-footer {
-  bottom: 10px;
+
+.project-tag{
+  margin-right: 5px;
 }
 
-.source {
-  padding: 15px 20px;
-  border-radius: 10px;
-  font-weight: bold;
-  color: rgb(112, 93, 93);
-  background-color: rgb(226, 226, 226);
+.card-footer {
+  justify-self: flex-start;
+  bottom: 10px;
 }
 
 .source:hover {

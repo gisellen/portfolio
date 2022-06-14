@@ -1,4 +1,4 @@
-.sidebar {
+.sidebar-com {
   position: absolute;
   float: right;
   display: flex;
@@ -7,6 +7,7 @@
   left: 96%;
   transform: translate(-50%, -50%);
   position: fixed;
+  z-index: 100;
 }
 
 button {
@@ -14,8 +15,8 @@ button {
   border: none;
 }
 
-.home-button,
-.projects-button {
+.button {
+  background-color: #f582ae;
   margin: 5px;
   margin-right: 30px;
   border-radius: 100%;
@@ -24,41 +25,35 @@ button {
   transition: 0.5s;
 }
 
-.home-group,
-.projects-group {
+.group {
   display: flex;
   flex-direction: row-reverse;
 }
 
-.home-sidebar,
-.projects-sidebar {
+.sidebar {
+  font-family: "Work Sans", sans-serif;
   display: inline;
   font-size: 20px;
-  color: white;
+  color: #001858;
   margin-right: 10px;
   opacity: 0;
   transition: 0.4s;
 }
 
-.home-button:hover + .home-sidebar {
+.button:hover + .sidebar {
   display: block;
   opacity: 1;
 }
 
-.projects-button:hover + .projects-sidebar {
-  display: block;
-  opacity: 1;
-}
-
-.home-button:hover,
-.projects-button:hover {
+.button:hover,
+.button:hover {
   cursor: pointer;
   opacity: 1;
 }
 
 /* tablet and phone screens will NOT show the sidebar */
 @media screen and (max-width: 1240px) {
-  .sidebar {
+  .sidebar-com {
     display: none;
   }
 }

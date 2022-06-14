@@ -2,13 +2,14 @@ import React from "react";
 //components
 import { IntroCard, Sidebar } from "../components";
 import Projects from "./Projects/Projects";
-import Contact from "./Contact";
+import About from "./About/About";
+import { Footer } from '../components/'
+
+//css
+import './Main.css'
 
 //images & data
 import projectsData from "../data/Projects";
-
-//misc
-import { Element, animateScroll as scroll } from "react-scroll";
 
 export default class Main extends React.Component {
   constructor() {
@@ -26,15 +27,12 @@ export default class Main extends React.Component {
     this.setState({
       projects: projectsData,
     });
-    //test
-    console.log(projectsData);
-    console.log(this.state.projects);
   }
 
   render() {
     return (
       <>
-        <div class="custom-shape-divider-top-1634922272">
+        <div className="custom-shape-divider-top-1634922272 header-svg">
           <svg
             data-name="Layer 1"
             xmlns="http://www.w3.org/2000/svg"
@@ -61,10 +59,11 @@ export default class Main extends React.Component {
           <Sidebar />
           <div className="pages">
             <IntroCard />
+            <About />
             <Projects />
-            <Contact />
           </div>
         </div>
+        <Footer />
       </>
     );
   }

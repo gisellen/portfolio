@@ -10,5 +10,5 @@ const style = {
     textAlign: 'center',
     padding: '20px 0',
     fontWeight: 'bold',
-    color: 'rgb(192, 101, 121)'
+    color: '#172c66'
 }

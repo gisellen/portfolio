@@ -1,0 +1,39 @@
+.about {
+  min-height: 50vh;
+  max-width: 70vh;
+  margin: auto;
+}
+.box {
+  display: flex;
+  flex-direction: row-reverse;
+  align-items: center;
+  justify-content: center;
+  padding: 30px;
+}
+
+.about h1 {
+  color: #001858;
+  font-family: "Work Sans", sans-serif;
+  text-shadow: 0px 2px 3px #b8beca;
+  font-size: 60px;
+  text-align: center;
+  margin-bottom: 0;
+
+}
+
+.about-description {
+  font-family: "Work Sans", sans-serif;
+  font-size: 20px;
+  font-weight: 600;
+  color: #4b506d;
+  padding-left: 20px;
+}
+
+.about-linkedin-icon, .about-github-icon, .about-email-icon {
+  filter: invert(25%) sepia(13%) saturate(1686%) hue-rotate(193deg) brightness(95%) contrast(82%);
+}
+.about-links{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}

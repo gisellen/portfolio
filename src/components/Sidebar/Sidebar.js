@@ -4,17 +4,23 @@ import { Link, animateScroll as scroll } from "react-scroll";
 
 export default function Sidebar() {
   return (
-    <div className="sidebar">
-      <Link activeClass="active" to="header" smooth={true} duration={500}>
-        <div className="home-group">
-          <button className="home-button"></button>
-          <div className="home-sidebar">Home</div>
+    <div className="sidebar-com">
+      <Link activeClass="active" to="home" smooth={true} duration={500} hashSpy={true}>
+        <div className="group">
+          <button className="button"></button>
+          <div className="sidebar">home</div>
         </div>
       </Link>
-      <Link activeClass="active" to="projects" smooth={true} duration={500}>
-        <div className="projects-group">
-          <button className="projects-button"></button>
-          <div className="projects-sidebar">Projects</div>
+      <Link activeClass="active" to="about" smooth={true} duration={500} offset={-250} hashSpy={true}>
+        <div className="group">
+          <button className="button"></button>
+          <div className="sidebar">about</div>
+        </div>
+      </Link>
+      <Link activeClass="active" to="projects" smooth={true} duration={500}  offset={-87} hashSpy={true}> 
+        <div className="group">
+          <button className="button"></button>
+          <div className="sidebar">projects</div>
         </div>
       </Link>
     </div>
