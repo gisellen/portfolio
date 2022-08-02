@@ -20,8 +20,8 @@ const projectsData = [
         title: "Giphy Search",
         description: "A React Application where the user is able to search up GIFs.  The GIFs were able to be searched up using an API made by Giphy.",
         tech: ["React", "Node.js", "Giphy API"],
-        link: "https://github.com/gisellen/Giphy-Search",
-        demo: ''
+        link: "https://github.com/gisellen/Giphy-API",
+        demo: 'https://remarkable-sable-7b04c4.netlify.app'
     },
     {
         id: 3,
