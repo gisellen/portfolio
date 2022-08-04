@@ -7,6 +7,7 @@ import IconButton from "@mui/material/IconButton";
 import ScatterPlot from "@mui/icons-material/ScatterPlot";
 import GithubIcon from "@mui/icons-material/GitHub";
 import WebAssetIcon from "@mui/icons-material/WebAsset";
+import BrushIcon from '@mui/icons-material/Brush';
 import Tooltip from "@mui/material/Tooltip";
 
 export default function ProjectCard(props) {
@@ -25,7 +26,7 @@ export default function ProjectCard(props) {
         <div className="technologies"> {techList}</div>
         <div className="card-footer">
           <a href={props.link} target="_blank">
-            <Tooltip title="Github" placement="left">
+            <Tooltip title="Github" placement="bottom">
               <IconButton>
                 <GithubIcon
                   className="github-icon"
@@ -37,10 +38,23 @@ export default function ProjectCard(props) {
           </a>
           {props.demo !== "" ? (
             <a href={props.demo} target="_blank">
-              <Tooltip title="Demo" placement="right">
+              <Tooltip title="Demo" placement="bottom">
                 <IconButton>
                   <WebAssetIcon
                     className="webasset-icon"
+                    target="_blank"
+                    fontSize="large"
+                  />
+                </IconButton>
+              </Tooltip>
+            </a>
+          ) : null}
+           {props.figma !== "" ? (
+            <a href={props.figma} target="_blank">
+              <Tooltip title="Figma Prototype" placement="bottom">
+                <IconButton>
+                  <BrushIcon
+                    className="figma-icon"
                     target="_blank"
                     fontSize="large"
                   />

@@ -38,7 +38,7 @@
   filter: invert(15%) sepia(11%) saturate(7251%) hue-rotate(187deg) brightness(101%) contrast(99%);
 }
 
-.github-icon, .webasset-icon{
+.github-icon, .webasset-icon, .figma-icon{
   filter: invert(72%) sepia(18%) saturate(5987%) hue-rotate(299deg) brightness(111%) contrast(92%);
 }
 
@@ -75,6 +75,7 @@
 
 .project-tag{
   margin-right: 5px;
+  margin-top: 5px;
 }
 
 .card-footer {

@@ -39,6 +39,7 @@ export default class Projects extends Component {
                     description={data.description}
                     tech={data.tech}
                     link={data.link}
+                    figma={data.figma}
                     demo={data.demo}
                   />
                 ))}

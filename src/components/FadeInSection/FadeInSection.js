@@ -12,7 +12,7 @@ export default function FadeInSection(props) {
             }
         });
         observer.observe(domRef.current);
-        return () => observer.unobserve(domRef.current);
+        // return () => observer.unobserve(domRef.current);
     }, []);
 
   return (
