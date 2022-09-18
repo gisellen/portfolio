@@ -6,7 +6,7 @@ const projectsData = [
         tech: ["Angular", "Typescript", "Ionic", "Firebase", "Chart.js", "Netlify"],
         link: "https://github.com/gisellen/KindCritters",
         figma: "https://www.figma.com/file/0q3pllpd602gaxAemzhSz6/KindCritters?node-id=0%3A1",
-        demo: 'https://kindcritters.netlify.app/auth'
+        demo: 'https://kindcritters.netlify.app'
     },
     {
         id: 1,
@@ -24,7 +24,7 @@ const projectsData = [
         tech: ["React", "Node.js", "Giphy API", "Axios", "Express.js", "Heroku", "Netlify"],
         link: "https://github.com/gisellen/Giphy-API",
         figma: "",
-        demo: 'https://remarkable-sable-7b04c4.netlify.app'
+        demo: 'https://giselles-giphy-api.netlify.app'
     },
     {
         id: 3,
