@@ -10,6 +10,7 @@ import './Main.css'
 
 //images & data
 import projectsData from "../data/Projects";
+import Contact from "./Contact/Contact";
 
 export default class Main extends React.Component {
   constructor() {
@@ -61,6 +62,7 @@ export default class Main extends React.Component {
             <IntroCard />
             <About />
             <Projects />
+            <Contact />
           </div>
         </div>
         <Footer />
