@@ -4,6 +4,7 @@
   "private": true,
   "homepage": "http://gisellen.github.io/portfolio",
   "dependencies": {
+    "@emailjs/browser": "^3.7.0",
     "@emotion/react": "^11.9.3",
     "@emotion/styled": "^11.9.3",
     "@mui/icons-material": "^5.8.3",
