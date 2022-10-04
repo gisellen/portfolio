@@ -28,7 +28,8 @@ input[type='text'], input[type='email']{
     border-radius: 20px;
 }
 
-input[type='submit'] {
+.submit-button {
+    position: relative;
     padding: 10px 20px;
     font-size: 17px;
     border: none;
@@ -37,7 +38,38 @@ input[type='submit'] {
     font-weight: bolder;
     border-radius: 10px;
     font-family: 'Work Sans', sans-serif;
+    cursor: pointer;
+    transition-duration: 0.4s;
+    -webkit-transition-duration: 0.4s; /* Safari */
 }
+
+.submit-button::after {
+    content: "";
+    display: block;
+    position: absolute;
+    border-radius: 10px;
+    left: 0;
+    top:0;
+    width: 100%;
+    height: 100%;
+    opacity: 0;
+    background-color: rgba(255, 255, 255, 0.281);
+    transition: all 0.5s;
+  }
+  
+  .submit-button:active::after {
+    background-color: rgba(255, 255, 255, 0.281);
+    position: absolute;
+    border-radius: 10px;
+    left: 0;
+    top:0;
+    opacity: 1;
+    transition: 0s;
+  }
+
+  .submit-button:active {
+    top: 1px;
+  }
 
 input:focus{
     outline: none;
@@ -61,4 +93,10 @@ textarea:focus{
 
 ::placeholder{
     font-family: 'Work Sans', sans-serif;
+}
+
+.return-message{
+    text-align: center;
+    padding-top: 1%;
+    font-weight: bold;
 }

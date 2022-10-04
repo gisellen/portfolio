@@ -1,6 +1,7 @@
+/* stylesheet that are global across all components */
+
 /* fonts */
 @import url('https://fonts.googleapis.com/css2?family=Open+Sans:wght@400;500&display=swap');
-
 
 .header-svg {
   position: fixed;
@@ -17,4 +18,9 @@
   font-size: 60px;
   text-align: center;
   margin-bottom: 0;
+}
+
+p {
+  font-family: 'Work Sans', sans-serif;
+  color: rgb(53, 47, 47);
 }
