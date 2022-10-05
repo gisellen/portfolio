@@ -23,6 +23,12 @@ export default function Sidebar() {
           <div className="sidebar">projects</div>
         </div>
       </Link>
+      <Link activeClass="active" to="contact" smooth={true} duration={500}  offset={-87} hashSpy={true}> 
+        <div className="group">
+          <button className="button"></button>
+          <div className="sidebar">contact</div>
+        </div>
+      </Link>
     </div>
   );
 }

@@ -12,7 +12,7 @@ export default class About extends Component {
   render() {
     return (
       <div class="about" id="about">
-        <h1 className="about-page-header">about</h1>
+        <h1 className="header-title">about</h1>
         <div className="box">
           <img src={Avatar} width="40%" />
           <div>

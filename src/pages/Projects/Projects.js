@@ -27,7 +27,7 @@ export default class Projects extends Component {
     return (
       <Element name="projects" id="projects">
         <div className="project-page">
-          <h1 className="project-page-header">projects</h1>
+          <h1 className="header-title">projects</h1>
           <FadeInSection
             children={
               <div className="projects-container">

@@ -1,3 +1,26 @@
-.header-svg{
-    position: fixed; left: 0; right: 0; top: 0; bottom:auto;
+/* stylesheet that are global across all components */
+
+/* fonts */
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:wght@400;500&display=swap');
+
+.header-svg {
+  position: fixed;
+  left: 0;
+  right: 0;
+  top: 0;
+  bottom: auto;
+}
+
+.header-title {
+  color: #001858;
+  font-family: "Work Sans", sans-serif;
+  text-shadow: 0px 2px 3px #b8beca;
+  font-size: 60px;
+  text-align: center;
+  margin-bottom: 0;
+}
+
+p {
+  font-family: 'Work Sans', sans-serif;
+  color: rgb(53, 47, 47);
 }
